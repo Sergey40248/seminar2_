@@ -10,6 +10,6 @@ a = []
 while count < n:
     count += 1
     f *= count
-    a.append(f)
+    a.append(f)#чтобы вывод выглядел как в задании 
 print(a)
     

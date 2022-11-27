@@ -16,14 +16,18 @@ for i in range(1,lengs + 1):
     indices.append(int(input('enter the number:  ')))
 #print(indices) 
 #a = (2, 2, 3, 1, 8)
-result = 1
-for j in indices:
-    
-    for index in range(len(array)):
-        if index == j:
-            result *= array[index]
-
-            #print(array[index])
+if len(array) > len(indices):
+    result = 1
+    for j in indices:
         
-print(result)
-#print(array)
+        for index in range(len(array)):
+            if index == j:
+                result *= array[index]
+
+                #print(array[index])
+            
+    print(result)
+    #print(array)
+
+else:
+    print('increase(+) n or reduce index(-) ')

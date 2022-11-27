@@ -14,8 +14,26 @@ for i in array:
     else:
         i += 1
 print(f'sum of even numbers  = {sum}')
-  
-        
+
+
+# n = int(input('enter n  '))
+# array = list(range(1,n + 1)) 
+
+# even = array[1::2]
+
+# sum = 0
+# for i in even:
+#     sum += i
+#     i += 1
+    
+# print(sum)    
+
+
+
+
+
+
+
 
 
 

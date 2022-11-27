@@ -6,14 +6,21 @@
 # Ввод: 4
 # [-4, -3, -2, -1, 0, 1, 2, 3,4]
 
+
 n = int(input('enter n:  '))
 array = list(range(-n, n + 1))
-a = (2, 2, 3, 1, 8)
+
+lengs =int(input('enter length index:  '))
+indices = []
+for i in range(1,lengs + 1):
+    indices.append(int(input('enter the number:  ')))
+#print(indices) 
+#a = (2, 2, 3, 1, 8)
 result = 1
-for i in a:
+for j in indices:
     
     for index in range(len(array)):
-        if index == i:
+        if index == j:
             result *= array[index]
 
             #print(array[index])
